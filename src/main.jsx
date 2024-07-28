@@ -39,7 +39,7 @@ const tourStyles = {
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename='/node_fs98_front_YevhenKharchenko'>
         <ModalProvider>
           <HelmetProvider>
             <TourProvider steps={steps} styles={tourStyles}>
