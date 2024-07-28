@@ -7,4 +7,5 @@ export default defineConfig({
   build: {
     sourcemap: true,
   },
+  base: '/node_fs98_front_YevhenKharchenko',
 });
